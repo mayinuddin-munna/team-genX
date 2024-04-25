@@ -36,9 +36,10 @@ const RegistrationForm = () => {
 
   return (
     <>
+    <h2 className="title">Registration form</h2>
       <div className="container">
           <img src={image} alt="Registration-image" />
-        <div style={{height:"100%"}}>
+        <div className="form-wrapper">
           <div className="form-group">
             <input
               type="text"
