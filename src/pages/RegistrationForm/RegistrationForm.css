@@ -1,14 +1,53 @@
-.registration-form {
-  /* Your styling for the form container */
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: ; */
+  margin: 5% 15%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.form-group {
-  /* Styling for form input group */
+img {
+  width: 600px;
 }
 
 .error-message {
   color: red;
-  /* Additional styling for error messages */
 }
 
-/* Add more CSS rules for styling */
+.form-group input[type="text"],
+input[type="number"],
+[type="email"],
+[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px 0;
+}
+
+input :hover {
+  background-color: red;
+}
+
+button {
+  color: #ffffff;
+  background-color: #4caf50;
+  height: 40px;
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2%;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #333333;
+}

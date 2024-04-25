@@ -27,7 +27,7 @@ const useFormValidation = () => {
     }
 
     if (!data.contact.trim()) {
-      newErrors.contact = "Contact is required";
+      newErrors.contact = "Contact Number is required";
       isValid = false;
     }
 
