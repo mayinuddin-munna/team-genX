@@ -11,22 +11,28 @@ Before you begin, ensure you have the following installed on your machine:
 * Node.js
 * npm (Node Package Manager) or yarn
 
-#### Clone the Repository
+#### Clone the 
+
 ```bash
 git clone https://github.com/yourusername/registration-form.git
 cd registration-form
-
+```
 #### Install Dependencies
+
 ```bash
 npm install
 # or
 yarn
+```
 
 #### Run the Project
+
 ```bash
 npm run dev
 # or
 yarn dev
+
+```
 
 This will generate optimized production-ready assets in the dist directory.
 
