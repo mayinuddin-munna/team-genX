@@ -36,6 +36,14 @@ const RegistrationForm = () => {
         button: false,
         timer: 1500,
       });
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        contact: "",
+        password: "",
+        confirmPassword: "",
+      });
     } else {
       console.log("Form validation failed");
     }
