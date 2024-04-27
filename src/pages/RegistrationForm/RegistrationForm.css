@@ -2,7 +2,6 @@ body {
   margin: 10% 0;
   padding: 0;
   background-repeat: no-repeat;
-  
 }
 
 .title {
@@ -24,7 +23,6 @@ img {
 }
 
 .form-wrapper {
-  text-align: center;
   margin-right: 100px;
 }
 

@@ -1,6 +1,7 @@
+import "./RegistrationForm.css";
+import swal from 'sweetalert';
 import React, { useState } from "react";
 import image from "../../assets/images/image.png";
-import "./RegistrationForm.css";
 import useFormValidation from "../../hooks/useFormValidation";
 
 const RegistrationForm = () => {
@@ -28,7 +29,13 @@ const RegistrationForm = () => {
     const isValid = validateForm(formData);
     if (isValid) {
       console.log(formData);
-      // Here you can add logic to submit the form data to your backend or any other action
+      swal({
+        title: "Good job!",
+        text: "Registration successful!",
+        icon: "success",
+        button: false,
+        timer: 1500,
+      });
     } else {
       console.log("Form validation failed");
     }
