@@ -1,10 +1,8 @@
-[Live Site](https://team-genx.vercel.app/)
-
 ## Registration Form Component
 This is a React component for a registration form designed to collect user information such as first name, last name, email, contact, password, and confirm password. The component includes validation for each input field and displays error messages accordingly. Additionally, it utilizes SweetAlert for displaying success messages upon successful form submission.
 
 ### Live Site
-You can view a live demo of this project here.
+You can view a live demo of this project [Live Site](https://team-genx.vercel.app/).
 
 ### How to Clone and Run the Project
 #### Prerequisites
